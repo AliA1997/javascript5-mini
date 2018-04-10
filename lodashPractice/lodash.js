@@ -148,3 +148,7 @@ var purchases = [
 
 // First, group the purchases by company without lodash
 // then do it again using _.groupBy()
+
+//If your just returning one expression using lodash just use a string referring to the string you are returning.
+const names = _.map(customers, 'first_name');
+

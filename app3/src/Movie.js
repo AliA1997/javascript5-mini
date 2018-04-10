@@ -1,7 +1,9 @@
 import React from 'react';
 
-export function Movie() {
+export function Movie(props) {
   return (
-      <p>{movie}</p>
+      <p>{props.movie}</p>
   )  
 }
+
+export default Movie;
